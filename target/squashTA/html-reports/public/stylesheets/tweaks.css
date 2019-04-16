@@ -1,0 +1,63 @@
+/**
+ *     This file is part of the Squashtest platform.
+ *     Copyright (C) 2011 - 2019 Henix
+ *
+ *     See the NOTICE file distributed with this work for additional
+ *     information regarding copyright ownership.
+ *
+ *     This is free software: you can redistribute it and/or modify
+ *     it under the terms of the GNU Lesser General Public License as published by
+ *     the Free Software Foundation, either version 3 of the License, or
+ *     (at your option) any later version.
+ *
+ *     this software is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU Lesser General Public License for more details.
+ *
+ *     You should have received a copy of the GNU Lesser General Public License
+ *     along with this software.  If not, see <http://www.gnu.org/licenses />.
+ */
+/* Issue 2587 : complete the Html report tweaks */
+.ie67 .col-mid {
+	zoom: 1;
+}
+
+.ie67 .col-mid {
+	display: inline;
+	zoom: 1;
+}
+
+.col-mid {
+    display: table-cell;
+    vertical-align: middle;
+}
+/* end of Issue 2587 */
+/* [Issue 7604] FIX : inline style attributes have to die 
+ * (the ContentSecurityPolicy mechanisme labels them as unsafe, 
+ * and better safely dxead than sorry, eh ?) 
+*/
+.middle    { vertical-align:middle; }
+.w15p   { width: 15px; }
+/* end of Issue 7604 */
+
+/* [SQTA-33]  */
+/* adding for Gherkin HTML reporting */ 
+.h4-subscript {
+	font-size: 1.5714em; /* equiv 22px */
+	font-weight: normal;
+	line-height: 1.909em;
+	margin: .9545em 0 0 0;
+	color: #1f70ad;
+	background-color: #dae6f1;
+}
+.subscript{
+	border: 0.1em solid #dae6f1;
+	margin-top: 1.3em;
+}
+.subscript-content{
+	padding: 1em 1.4em 1.4em 1.4em;
+}
+.subscript-header h4{
+    padding: 0 0.7em;
+}

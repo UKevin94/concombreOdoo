@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="50.434" failures="0" tests="1" name="FeatureList" >
+  <testcase time="2.707" classname="FeatureList" name="Eco.setup" />
+  <testcase time="47.716" classname="FeatureList" name="odoo.Main.feature" />
+</testsuite>
