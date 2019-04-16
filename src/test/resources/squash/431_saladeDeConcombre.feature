@@ -1,5 +1,5 @@
 # language: fr
-Fonctionnalité: Salade De Concombre
+Fonctionnalité: Salade De Concombre 2
 
   Contexte:
     Étant donné que je suis sur le site d'Odoo
