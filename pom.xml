@@ -143,10 +143,10 @@
                       implementation="org.squashtest.ta.commons.exporter.surefire.SurefireSuiteResultExporter">
                 <jenkinsAttachmentMode>${ta.jenkins.attachment.mode}</jenkinsAttachmentMode>
               </exporter>
-              <exporter implementation="org.squashtest.ta.commons.exporter.html.HtmlSuiteResultExporter"/>
-              <!--
+              <!--<exporter implementation="org.squashtest.ta.commons.exporter.html.HtmlSuiteResultExporter"/>-->
+              
                   <exporter implementation="org.squashtest.ta.gherkin.exporter.HtmlGherkinSuiteResultExporter" />
-              -->
+              
             </gkexporters>
 
             <!-- Define configurers -->
